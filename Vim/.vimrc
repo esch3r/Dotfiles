@@ -55,7 +55,7 @@ set undofile
 set incsearch 
 
 
-"-----------------------------------------------------------
+
 "-----------------| Indentation Settings |------------------
 
 filetype plugin indent on
@@ -69,7 +69,6 @@ set shiftwidth = 4
 set softtabstop =4
 set expandtab 
 
-"----------------------------------------------------------
 "-----------------| Keystroke Mappings |-------------------
 
 nnoremap <C-L> :nohl<CR><C-L>
@@ -96,8 +95,13 @@ nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 
 "Load current text in buffer into Google Chrome
 nmap ,c :!open -a Google\ Chrome<cr>
-"----------------------------------------------------------
+
+
 "-----------------| Color & Pizzazz |----------------------
+
+set background=dark
+colorscheme solarized
+
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=blue
 

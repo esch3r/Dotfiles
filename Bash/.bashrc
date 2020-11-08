@@ -6,10 +6,11 @@ if [ -f /etc/bashrc ]; then
 fi
 
 
-#for DOTFILE in 'find /home/Sarsaparilla/dotfiles'
-#do 
-#   [-f "$DOTFILE"] && source "$DOTFILE "
-#done
+for DOTFILE in 'find /home/Sarsaparilla/dotfiles'
+  do 
+  [-f "$DOTFILE"] && source "$DOTFILE "
+done
+
 
 # set length of pwd shown on prompt 
 export PROMPT_DIRTRIM=2

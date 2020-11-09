@@ -45,5 +45,6 @@ alias psmem10='ps auxf | sort -nr -k 4 | head -10'
 alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
 alias wget='wget -c'
 
+alias rm='rm -i'
 alias ll="ls -al"
 alias ldir="ls -al | grep ^d"

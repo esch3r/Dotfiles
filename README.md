@@ -1,4 +1,4 @@
-# Dotfiles -- 
+# Dotfiles 
 
 [Managing dotfiles with Stow](https://alexpearce.me/2016/02/managing-dotfiles-with-stow/)
 [Painless way to manage dotfiles](https://www.freecodecamp.org/news/dive-into-dotfiles-part-2-6321b4a73608/)

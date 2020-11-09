@@ -26,6 +26,14 @@ if [ -f `which powerline-daemon` ]; then
 fi
 
 
+# Cpp-run()  [filename] 
+cpp-run() {
+    echo "Compiling file..."
+    g++ -o "$1" "$1.cpp"
+    echo "Compiled! Enter input :D"
+    ./"$1"
+}
+
 # export SYSTEMD_PAGER=
 
 
@@ -46,5 +54,11 @@ alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
 alias wget='wget -c'
 
 alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
 alias ll="ls -al"
 alias ldir="ls -al | grep ^d"
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+
+

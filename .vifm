@@ -1,1 +1,15 @@
 
+set trash 
+set history=250
+set fastrun
+colorscheme=G80
+
+set wildmenu
+set suggestoptions=normal,visual,view,otherpane,keys,marks,register
+
+
+nnoremap tv :!tiv -t %d & <cr>
+nnoremap s :shell<cr>
+nnoremap w :view<cr>
+vnoremap w :view<cr>gv
+

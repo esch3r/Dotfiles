@@ -1,0 +1,14 @@
+cat > /etc/inputrc << "EOF"
+
+set output-meta On
+
+
+# Escape sequences 
+
+
+# Console 
+
+
+# Xterm Terminal Emulator 
+"\eOH": beginning-of-line
+"\eOF": end-of-line

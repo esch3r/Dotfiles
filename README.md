@@ -8,3 +8,4 @@
 - [Luke Smith's guide to Larbs ](https://larbs.xyz/larbs_readme.pdf)
 - [Symbolically linking dotfiles](https://stackoverflow.com/questions/46534290/symlink-dotfiles)
 - [The Linux Filesystem Explained](https://www.linux.com/training-tutorials/linux-filesystem-explained/)
+- [Configuring Wine](https://wiki.winehq.org/Wine_User%27s_Guide#Configuring_Wine)
